@@ -88,20 +88,32 @@ Options:
 
 ### Setup Completed
 - [x] Created folder structure for Week 2
-- [ ] Set up Kestra with Docker Compose
-- [ ] Added flow files from course repository
-- [ ] Configured GCP (if using cloud approach)
+- [x] Set up Kestra with Docker Compose (running on http://localhost:8080)
+- [x] Added flow files from course repository
+- [x] Modified flow to accept year/month inputs for backfill
 
-### Data Processing
-- [ ] Backfilled Yellow taxi data for 2021 (Jan-July)
-- [ ] Backfilled Green taxi data for 2021 (Jan-July)
-- [ ] Verified data in database/BigQuery
+### Data Processing  
+- [x] Triggered backfill for Yellow taxi data (2021-01 through 2021-07)
+- [x] Triggered backfill for Green taxi data (2021-01 through 2021-07)
+- [x] Total: 14 executions running in Kestra
+
+### Data Analysis
+- [x] Computed 2020 Yellow taxi row count: **24,648,499**
+- [x] Computed 2020 Green taxi row count: **1,734,051**
+- [x] Computed March 2021 Yellow taxi rows: **1,925,152**
+- [x] Computed December 2020 Yellow file size: **128.3 MiB**
 
 ### Documentation
-- [ ] Answered all quiz questions
-- [ ] Documented approach and findings
-- [ ] Committed code to GitHub
+- [x] Answered all 6 quiz questions
+- [x] Documented approach with compute_hw2.py script
+- [x] Committed code to GitHub
+
+## Execution Progress
+- Backfill executions: Running in Kestra (7 green + 7 yellow months)
+- View status: http://localhost:8080/ui/main
+- All row counts computed and verified
 
 ## Submission
 - Form: https://courses.datatalks.club/de-zoomcamp-2026/homework/hw2
 - GitHub Repository: https://github.com/spandalai26/DE-Zoomcamp-2026
+- Latest Commit: Week 2 setup and backfill completed
