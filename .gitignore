@@ -68,3 +68,6 @@ Thumbs.db
 .env.local
 .env.*.local
 .html
+
+# Homework logs
+03-data-warehouse/homework.md
